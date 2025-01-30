@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-void greeting(void)
+void greeting(const char *name)
 {
-    printf("Hi there.\n");
+    printf("Hi there, %s!\n", name);
 }
