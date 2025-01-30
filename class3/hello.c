@@ -1,3 +1,6 @@
+
+#include "hello.h"
+
 #include <stdio.h>
 
 int factorial(int n)
